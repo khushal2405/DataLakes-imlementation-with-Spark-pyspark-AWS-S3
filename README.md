@@ -6,8 +6,9 @@ The ETL pipeline, to populate the AWS S3 Data Lake using Spark
 
 2. Read data from S3
 
-Song data: s3a://<S3 bucket name>/song_data
-Log data: s3a://<S3 bucket name>/log_data
+Song data: "s3a://<S3 bucket name>/song_data"
+  
+Log data: "s3a://<S3 bucket name>/log_data"
 
 3. The script reads song_data and load_data from S3.
 
